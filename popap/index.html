@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="popup__bg">
+        <form class="popup">
+          <h1 class="title">Анкета</h1>
+          <label>
+            <input type="text" name="Name" />
+            <div class="label__text">Ваше имя</div>
+          </label>
+          <label>
+            <input type="e-mail" name="e-mail" />
+            <div class="label__text">Ваш e-mail</div>
+          </label>
+          <label>
+            <input type="text" name="Favorite Dog" />
+            <div class="label__text">Любимая порода собак</div>
+          </label>
+          <label>
+            <input type="text" name="Color" />
+            <div class="label__text">Любимый цвет</div>
+          </label>
+          <label>
+            <input type="text" name="Favorite Actor" />
+            <div class="label__text">Имя любимого актера</div>
+          </label>
+          <button type="submit" class="send-popup">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <div class="data-list"></div>
+    <button class="open-popup">Начать</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
